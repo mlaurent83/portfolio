@@ -1,3 +1,19 @@
+.playfair-display-text {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  /* Regular text */
+  font-style: normal;
+}
+
+.playfair-display-title {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  /* Bold title */
+  font-style: normal;
+}
+
 .banner {
   background-size: cover;
   background-position: center;
