@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html,
 body {
   height: 100%;
@@ -5,6 +11,10 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
+}
+
+.bg-image {
+  flex-grow: 1;
 }
 
 body {
@@ -30,6 +40,7 @@ footer {
   background-color: #f8f9fa;
   padding: 1rem;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .card-title {
