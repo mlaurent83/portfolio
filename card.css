@@ -19,25 +19,19 @@ body {
   padding: 0;
   border: none;
   border-radius: .75rem;
-  /* Increased border radius for softer corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  /* Soft shadow */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  /* Smooth hover effects */
   margin-top: 20px;
 }
 
 .card:hover {
   transform: translateY(-10px);
-  /* Card lifts slightly when hovered */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-  /* Stronger shadow on hover */
 }
 
 .card-block {
   font-size: 1.1em;
   padding: 1.5rem;
-  /* More padding for better spacing */
 }
 
 .card-title {
@@ -45,13 +39,11 @@ body {
   font-weight: 600;
   margin-bottom: 1rem;
   color: #007bff;
-  /* Primary color for title */
 }
 
 .card-text {
   font-size: 1rem;
   color: #555;
-  /* Softer text color */
   line-height: 1.6;
 }
 
