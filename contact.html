@@ -37,6 +37,21 @@
     <button type="button" class="btn btn-light">maevaestavel@gmail.com</button>
   </div>
   </div>
+
+  <div id="footer"></div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      fetch('./components/footer.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("footer").innerHTML = data;
+        })
+        .catch(error => console.error('Error loading footer:', error));
+    });
+
+
+  </script>
   <!-- Script to Load Navbar -->
   <script>
     document.addEventListener("DOMContentLoaded", function () {

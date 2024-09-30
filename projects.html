@@ -140,9 +140,22 @@
     <!-- End of card -->
 
   </div>
-
-
   </div>
+
+  <div id="footer"></div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      fetch('./components/footer.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("footer").innerHTML = data;
+        })
+        .catch(error => console.error('Error loading footer:', error));
+    });
+
+
+  </script>
 
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
