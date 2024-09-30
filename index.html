@@ -29,7 +29,7 @@
   </script>
   <!-- Jumbotron -->
   <div class="p-5 text-center bg-image rounded-3 bg-image" style="
-background-image: url(background.jpg);
+background-image: url(./images/background.jpg);
 height: 400px;
 ">
     <div class="mask rounded" style="background-color: rgba(0, 0, 0, 0.5); height: 200px;">
@@ -48,7 +48,7 @@ height: 400px;
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      fetch('footer.html')
+      fetch('./components/footer.html')
         .then(response => response.text())
         .then(data => {
           document.getElementById("footer").innerHTML = data;
