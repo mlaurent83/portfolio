@@ -76,25 +76,3 @@ footer {
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
-
-.libre-baskerville-regular {
-  font-family: "Libre Baskerville", serif;
-  font-weight: 400;
-  font-size: 16px;
-  font-style: normal;
-  color: #333;
-}
-
-.libre-baskerville-bold {
-  font-family: "Libre Baskerville", serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #333;
-}
-
-.libre-baskerville-regular-italic {
-  font-family: "Libre Baskerville", serif;
-  font-weight: 400;
-  font-style: italic;
-  color: #333;
-}
