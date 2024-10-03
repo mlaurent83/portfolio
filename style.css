@@ -16,19 +16,19 @@ body {
 .banner h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
-  color: #333333; /* Charcoal Text */
+  color: #333333;
 }
 
 .banner p {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
-  color: #333333; /* Charcoal Text */
+  color: #333333;
 }
 
 .btn-outline-light {
-  border-color: #008080; /* Teal Accent for Border */
-  background-color: #E0F4F1; /* Light Teal Background */
-  color: #008080; /* Teal Text */
+  border-color: #008080 !important;
+  background-color: #E0F4F1 !important;
+  color: #008080 !important;
   padding: 0.8rem 2rem;
   font-size: 1.1rem;
   font-weight: 600;
@@ -36,21 +36,20 @@ body {
 }
 
 .btn-outline-light:hover {
-  background-color: #008080; /* Dark Teal Background on Hover */
-  color: white; /* White Text on Hover */
-  border-color: #008080; /* Keep Border Same */
-  transform: scale(1.05); /* Slightly enlarge on hover */
+  background-color: #008080 !important;
+  color: white !important;
+  border-color: #008080;
+  transform: scale(1.05);
 }
 
 footer {
-  background-color: #E6E6E6; /* Light Grey Footer */
+  background-color: #E6E6E6;
   padding: 1rem;
   text-align: center;
   margin-top: auto;
 }
 
-footer a {
-  color: #333333; /* Charcoal Text */
+footer a {/* Charcoal Text */
   text-decoration: none;
   margin: 0 10px;
 }
