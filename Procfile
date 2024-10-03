@@ -1,1 +1,1 @@
-web: static
+web: nginx -c config/nginx.conf
