@@ -6,8 +6,8 @@ body {
   margin-bottom: 20px;
   margin-top: 0px;
   text-transform: uppercase;
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: 600;
   color: #333;
   letter-spacing: 0.05em;
   font-family: "Libre Baskerville", serif
@@ -30,22 +30,9 @@ body {
 }
 
 .card-block {
-  font-size: 1.1em;
   padding: 1.5rem;
 }
 
-.card-title {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  color: #555;
-}
-
-.card-text {
-  font-size: 1rem;
-  color: #555;
-  line-height: 1.6;
-}
 
 .btn {
   margin-top: 1.5rem;
@@ -93,5 +80,5 @@ body {
 }
 
 .container {
-  margin-top: 0rem;
+  margin-top: 1rem;
 }
