@@ -1,78 +1,60 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html,
 body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.bg-image {
-  flex-grow: 1;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: #FAF7F0 !important;
+  background-color: #F7F7F7; /* Light Grey Background */
+  color: #333333; /* Dark Grey Text */
   font-family: 'Libre Baskerville', serif;
 }
 
-.jumbotron-wrapper {
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.jumbotron {
-  margin-bottom: 0;
-}
-
-footer {
-  background-color: #FFECC8;
-  padding: 1rem;
-  text-align: center;
-  margin-bottom: 0;
-}
-
-.card-title {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  color: #333;
-}
-
-.card-text {
-  font-size: 1rem;
-  color: #333;
-  line-height: 1.6;
-}
-
 .banner {
+  background-image: url('path-to-your-image.jpg');
   background-size: cover;
   background-position: center;
   padding: 150px 0;
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .banner h1 {
-  margin: 0;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-  font-size: 32px;
-  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #333333; /* Charcoal Text */
 }
 
 .banner p {
-  font-size: 20px;
-  color: white;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #333333; /* Charcoal Text */
+}
+
+.btn-outline-light {
+  border-color: #008080; /* Teal Accent for Border */
+  background-color: #E0F4F1; /* Light Teal Background */
+  color: #008080; /* Teal Text */
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-light:hover {
+  background-color: #008080; /* Dark Teal Background on Hover */
+  color: white; /* White Text on Hover */
+  border-color: #008080; /* Keep Border Same */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+footer {
+  background-color: #E6E6E6; /* Light Grey Footer */
+  padding: 1rem;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer a {
+  color: #333333; /* Charcoal Text */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
