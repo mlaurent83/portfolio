@@ -47,12 +47,12 @@ footer {
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  color: #555;
+  color: #333;
 }
 
 .card-text {
   font-size: 1rem;
-  color: #555;
+  color: #333;
   line-height: 1.6;
 }
 
@@ -81,16 +81,19 @@ footer {
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
   font-style: normal;
+  color: #333;
 }
 
 .libre-baskerville-bold {
   font-family: "Libre Baskerville", serif;
   font-weight: 700;
   font-style: normal;
+  color: #333;
 }
 
 .libre-baskerville-regular-italic {
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
   font-style: italic;
+  color: #333;
 }
