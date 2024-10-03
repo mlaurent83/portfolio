@@ -16,7 +16,7 @@ http {
         server_name localhost;
 
         location / {
-            root public/;  # Point to your public directory
+            root public/;
             index index.html index.htm;
             try_files $uri $uri/ /index.html;
         }
