@@ -22,7 +22,6 @@
 
 <body>
   <div id="navbar"></div>
-
   <div class="container pt-4 mb-4">
     <section class="hero-section">
       <div class="container text-center">
@@ -121,7 +120,6 @@
         .catch(error => console.error('Error loading footer:', error));
     });
 
-    // Load the navbar
     document.addEventListener("DOMContentLoaded", function () {
       fetch('navbar.html')
         .then(response => response.text())
@@ -139,6 +137,7 @@
     once: true
   });
 </script>
+
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
