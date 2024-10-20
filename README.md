@@ -1,14 +1,16 @@
-## Portfolio Website
+# Portfolio Website
 
-Welcome to my portfolio website! This project showcases my web development work, including projects and designs that reflect my skills and creativity.
+Welcome to my portfolio website! This project showcases my web development work, highlighting various projects and designs that demonstrate my skills.
 
 ## Features
+- **Responsive Design**: Optimized for mobile and desktop viewing.
+- **Projects Page**: Displays a curated list of my web development projects.
+- **Contact Page**: Includes a form to reach out to me.
 
-Responsive Design: Optimized for various screen sizes.
-Projects Page: Displays a collection of my web development projects.
-Contact Page: Allows visitors to reach out via a form.
+## Technologies Used
+- HTML
+- CSS
 
-## Technologies used
-
-HTML
-CSS
+## Future Enhancements
+- Adding more projects.
+- Improving the design with animations and interactivity.
