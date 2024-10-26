@@ -10,6 +10,7 @@ Welcome to my portfolio website! This project showcases my web development work,
 ## Technologies Used
 - HTML
 - CSS
+-Javascript
 
 ## Future Enhancements
 - Adding more projects.
