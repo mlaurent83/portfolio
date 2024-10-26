@@ -6,6 +6,7 @@ Welcome to my portfolio website! This project showcases my web development work,
 - **Responsive Design**: Optimized for mobile and desktop viewing.
 - **Projects Page**: Displays a curated list of my web development projects.
 - **Contact Page**: Includes a form to reach out to me.
+- **About Page**: Introduces my path as a web developer. 
 
 ## Technologies Used
 - HTML
